@@ -93,15 +93,6 @@ let storage = {}
 
 const h3 = document.getElementById('h3s')
 
-
-function goToHomepage() {
-    homepage.style.display = "flex"
-    questionSection.style.display = "none"
-    finalSection.style.display = "none"
-    beginQuestionsButton.style.display = "none"
-    h3.style.display = "none"
-}
-
 const homepageButton = document.getElementById('homepageButton')
 homepageButton.addEventListener('click', () => location.reload(true))
 
